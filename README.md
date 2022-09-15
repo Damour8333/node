@@ -24,11 +24,26 @@ de urlBase+           port +      verbe ---post
      |                              |
  local host:3000                    get 
 
-
+$ npm run start
 
  get c'est pour récuperer
  et post c'est pour envoyer 
- 20.53
+
+
+ localhost c'est l'hébégeur local node js c'est le moteur qui fait tourner tout ça 
+
+ le controleur récupere le localhost avec le get 
+
+ le controleur en GET  il appelle et il délégue le traitement a  son service  
+ le appservice il lui dit si tu reçoit  un GET va s'y appelle le getHello
+
+ //3eme séance ily a aussi postman 
+2/swagger permet de simuler les requetes Api
+3/ le swager permet de corriger les requétes 
+4/
+on va a la   prefecture et on donne  le mauvais papier l'eqipe back et le front vont se rejeter la faute l'un sur l'autre
+et sawgger c 'est une doc pour exposer la demande ppour le front
+
 
  echo "# node" >> README.md
 git init
